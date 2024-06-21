@@ -25,27 +25,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
-- Name: Button1
-  Type: ObjectLibraryItem
-  Children:
-  - Name: LibraryItemGuid
-    Type: BaseDataVariableType
-    DataType: Guid
-    Value: "1d296d5dec7222a96ca1a3ac6da73734"
-  - Name: LibraryItemVersion
-    Type: BaseDataVariableType
-    DataType: UInt32
-    Value: 1
-  - Name: Button1
-    Id: g=c87aed2b9a0e76ba2f1ba6e6c70fd0b1
-    Supertype: Button
-    ReferenceType: HasComponent
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button1"}
 - Name: Label1
   Type: ObjectLibraryItem
   Children:
